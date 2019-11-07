@@ -10,3 +10,68 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+.headerFooter {
+  display: flex;
+  background-color: rgb(131, 202, 255);
+  border: 6px solid black;
+  font-size: 5rem;
+  padding: 1rem;
+  justify-content: center;
+  width: 700px;
+}
+
+.middleContent {
+  display: flex;
+  justify-content: center;
+  width: 700px;
+  align-self: flex-start;
+}
+
+.menu {
+  display: flex;
+  background-color: rgb(204, 153, 204);
+}
+
+.content {
+  display: flex;
+  border-left: 6px solid black;
+  border-right: 6px solid black;
+  background-color: rgb(255, 204, 204);
+  justify-content: center;
+  flex-flow: column wrap;
+  width: 400px;
+  height: 350px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  border-left: 6px solid black;
+  border-right: 5px solid black;
+}
+
+ul {
+  list-style: none;
+}
+
+.menuItems {
+  font-size: 1.5rem;
+}
+
+.adBox {
+  display: flex;
+  font-size: 4rem;
+  justify-content: center;
+  flex-direction: column;
+}
+
+p {
+  text-align: center;
+}
